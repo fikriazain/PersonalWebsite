@@ -2,7 +2,6 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'Judul':'Selamat Datang'
-        'headline':'LOL'
+        'Judul':'Selamat Datang',
     }
     return render(request, 'index.html', context)
