@@ -2,6 +2,6 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'Judul':'Fikri AUfaa Zain',
+        'Judul':'Fikri Aufaa Zain',
     }
     return render(request, 'index.html', context)
