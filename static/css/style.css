@@ -68,9 +68,12 @@ main {
     margin: 0 1.5rem;
 }
 
+
+.navbar{
+    transition: 0.4s;
+}
 .navbar:hover {
     width: 16rem;
-
 }
 
 .navbar:hover .link-text {
