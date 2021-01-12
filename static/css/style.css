@@ -8,7 +8,7 @@
 }
 
 body {
-    color: white;
+    color: #cccccc;
     background-color:#1e1e24;
     margin: 0;
     padding: 0;
@@ -77,4 +77,8 @@ main {
 
 .navbar:hover .link-text {
     display: block;
+}
+
+h1 {
+    color: #ff4f73;
 }
