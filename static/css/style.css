@@ -200,9 +200,28 @@ section img {
 }
 
 #text {
-    position: relative;
+    position: absolute;
     color: #ff4f73;
+    font-size: 2em;
+    z-index: 1;
+    padding-bottom: 300px;
+
+}
+
+#meh {
+    position: absolute;
+    color:white;
     font-size: 5em;
     z-index: 1;
+    padding-bottom: 130px;
+    font-family: 'Lobster';
+}
 
+#pop {
+    position: absolute;
+    color:white;
+    font-size: 2em;
+    z-index: 1;
+    padding-bottom: 0px;
+    font-family: 'Lobster';
 }
