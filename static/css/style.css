@@ -1,4 +1,3 @@
-
 :root {
     font-size: 16px;
     font-family: 'Calibri';
@@ -52,7 +51,6 @@ body::-webkit-scrollbar-thumb{
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
@@ -102,7 +100,7 @@ h1 {
     align-items: center;
     height: 5rem;
     color: var(--text-primary);
-    text-decoration: none;
+    text-decoration: none;  
     transition: 0.4s;
 }
 
@@ -237,7 +235,7 @@ section img {
     }
 
     #meh {
-        font-size: 200%;
+        font-size: 250%;
         padding-left: 10px;
         padding-bottom: 130px ;
         text-align: center;
@@ -262,6 +260,7 @@ section img {
     }
 
 }
+
 
 /* sm */
 @media only screen and (min-width: 576px) {
@@ -318,6 +317,7 @@ section img {
         width: 5rem;
         height: 100vh;
     }
+
     .navbar:hover {
         width: 16rem;
     }
@@ -371,7 +371,6 @@ section img {
     }
 
 }
-
 
 /* lg */
 @media only screen and (min-width: 992px) {
@@ -496,3 +495,7 @@ section img {
     }
 
 }
+
+
+
+
