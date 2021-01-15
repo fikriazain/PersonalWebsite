@@ -223,5 +223,17 @@ section img {
     font-size: 2em;
     z-index: 1;
     padding-bottom: 0px;
+    padding-right: 115px;
     font-family: 'Lobster';
+}
+
+#pop2 {
+    position: absolute;
+    color:white;
+    font-size: 2em;
+    z-index: 1;
+    padding-bottom: 0px;
+    padding-left: 170px;
+    font-family: 'Lobster';
+    color: #ff4f73;
 }
