@@ -1,5 +1,4 @@
 
-
 :root {
     font-size: 16px;
     font-family: 'Calibri';
@@ -129,7 +128,6 @@ h1 {
     width : 100%;
 }
 
-
 body {
     animation: fadeIn 1.25s;
 }
@@ -190,7 +188,6 @@ section img {
 #text {
     position: absolute;
     color: #ff4f73;
-    font-size: 2em;
     z-index: 1;
     padding-bottom: 300px;
 
@@ -219,8 +216,8 @@ section img {
 }
 
 
-/* Small */
-@media only screen and (max-width: 965px) {
+/* xs */
+@media only screen and (max-width: 576px) {
     .navbar {
         bottom: 0;
         width: 100vw;
@@ -247,7 +244,8 @@ section img {
     }
 
     #text {
-        padding-bottom: 250px;
+        font-size: 30px;
+        padding-bottom: 225px;
     }
 
     #pop, #pop2 {
@@ -265,8 +263,56 @@ section img {
 
 }
 
-/* Large */
-@media only screen and (min-width: 965px) {
+/* sm */
+@media only screen and (min-width: 576px) {
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 4rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    main {
+        margin-left: 0rem;
+    }
+
+    #meh {
+        font-size: 3em;
+        padding-left: 10px;
+        padding-bottom: 130px ;
+        text-align: center;
+    }
+
+    #text {
+        font-size: 2em;
+        padding-bottom: 250px;
+    }
+
+    #pop, #pop2 {
+        padding-bottom: 40px;
+    }
+
+    #pop {
+        font-size: 160%;
+        padding-right: 60px;
+    }
+
+    #pop2 {
+        font-size: 160%;
+        padding-left: 170px;    
+    }
+
+}
+
+/* md */
+@media only screen and (min-width: 768px) {
     .navbar {
         top: 0;
         width: 5rem;
@@ -274,6 +320,15 @@ section img {
     }
     .navbar:hover {
         width: 16rem;
+    }
+
+    .navbar-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     
     .navbar:hover .link-text {
@@ -285,26 +340,159 @@ section img {
     }
 
     #meh {
-        font-size: 5em;
+        font-size: 3.5em;
         padding-bottom: 130px;
         text-align: center;
     }
 
     #text {
         font-size: 2em;
-        padding-bottom: 300px;
+        padding-bottom: 240px;
     }
 
     #pop {
         font-size: 2em;
         padding-bottom: 0px;
         padding-right: 115px;
-        padding-left: 70px;
+        padding-left: 50px;
+    }
+
+    #pop, #pop2 {
+        padding-bottom: 10px;
     }
 
     #pop2 {
         font-size: 2em;
-        padding-left: 240px;    
+        padding-left: 220px;    
+    }
+
+    .logo {
+        display: inline;
+    }
+
+}
+
+
+/* lg */
+@media only screen and (min-width: 992px) {
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+    .navbar:hover {
+        width: 16rem;
+    }
+
+    .navbar-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar:hover .link-text {
+        display: block;
+    }
+
+    main {
+        margin-left: 5rem;
+    }
+
+
+    #text {
+        font-size: 10px;
+    }
+
+
+    #meh {
+        font-size: 5em;
+        padding-bottom: 130px;
+        text-align: center;
+    }
+
+    #text {
+        font-size: 50px;
+        padding-bottom: 300px;
+    }
+
+    #pop {
+        font-size: 3em;
+        padding-right: 170px;
+    }
+
+    #pop2 {
+        font-size: 3em;
+        padding-left: 300px;    
+    }
+
+    #pop, #pop2 {
+        padding-top: 40px;
+    }
+
+    .logo {
+        display: inline;
+    }
+
+}
+
+/* xl */
+@media only screen and (min-width: 1200px) {
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+    .navbar:hover {
+        width: 16rem;
+    }
+
+    .navbar-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar:hover .link-text {
+        display: block;
+    }
+
+    main {
+        margin-left: 5rem;
+    }
+
+    #meh {
+        font-size: 6em;
+        padding-bottom: 130px;
+        text-align: center;
+    }
+
+    #text {
+        font-size: 3em;
+        padding-bottom: 300px;
+    }
+
+    #pop {
+        font-size: 3em;
+        padding-left: 70px;
+    }
+
+    #pop2 {
+        font-size: 3em;
+        padding-left: 320px;    
+    }
+
+    #pop, #pop2 {
+        padding-top: 40px;
+    }
+
+    .logo {
+        display: inline;
     }
 
 }
