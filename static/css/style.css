@@ -20,7 +20,6 @@ body {
 }
 
 main {
-    margin-left: 5rem;
     margin-top: 0rem;
     min-height: 1500px;
     position: sticky;
@@ -43,8 +42,6 @@ body::-webkit-scrollbar-thumb{
 }
 
 .navbar {
-    width: 5rem;
-    height: 100vh;
     position: fixed;
     background-color: var(--bg-primary);
     transition: 0.4s;
@@ -90,15 +87,6 @@ body::-webkit-scrollbar-thumb{
 .nav-link svg {
     min-width: 2rem;
     margin: 0 1.5rem;
-}
-
-
-.navbar:hover {
-    width: 16rem;
-}
-
-.navbar:hover .link-text {
-    display: block;
 }
 
 h1 {
@@ -211,29 +199,112 @@ section img {
 #meh {
     position: absolute;
     color:white;
-    font-size: 5em;
     z-index: 1;
-    padding-bottom: 130px;
     font-family: 'Lobster';
 }
 
 #pop {
     position: absolute;
     color:white;
-    font-size: 2em;
     z-index: 1;
-    padding-bottom: 0px;
-    padding-right: 115px;
     font-family: 'Lobster';
 }
 
 #pop2 {
     position: absolute;
     color:white;
-    font-size: 2em;
     z-index: 1;
-    padding-bottom: 0px;
-    padding-left: 170px;
     font-family: 'Lobster';
     color: #ff4f73;
+}
+
+
+/* Small */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        bottom: 0;
+        width: 100vw;
+        height: 4rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+    main {
+        margin-left: 0rem;
+    }
+
+    #meh {
+        font-size: 200%;
+        padding-left: 10px;
+        padding-bottom: 130px ;
+        text-align: center;
+    }
+
+    #text {
+        padding-bottom: 250px;
+    }
+
+    #pop, #pop2 {
+        font-size: 130%;
+        padding-bottom: 60px;
+    }
+
+    #pop {
+        padding-right: 60px;
+    }
+
+    #pop2 {
+        padding-left: 125px;    
+    }
+
+}
+
+/* Large */
+@media only screen and (min-width: 600px) {
+    .navbar {
+        top: 0;
+        width: 5rem;
+        height: 100vh;
+    }
+    .navbar:hover {
+        width: 16rem;
+    }
+    
+    .navbar:hover .link-text {
+        display: block;
+    }
+
+    main {
+        margin-left: 5rem;
+    }
+
+    #meh {
+        font-size: 5em;
+        padding-bottom: 130px;
+        text-align: center;
+    }
+
+    #text {
+        font-size: 2em;
+        padding-bottom: 300px;
+    }
+
+    #pop {
+        font-size: 2em;
+        padding-bottom: 0px;
+        padding-right: 115px;
+        padding-left: 70px;
+    }
+
+    #pop2 {
+        font-size: 2em;
+        padding-left: 240px;    
+    }
+
 }
