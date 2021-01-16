@@ -235,28 +235,28 @@ section img {
     }
 
     #meh {
-        font-size: 250%;
+        font-size: 190%;
         padding-left: 10px;
-        padding-bottom: 130px ;
+        padding-bottom: 40px ;
         text-align: center;
     }
 
     #text {
         font-size: 30px;
-        padding-bottom: 225px;
+        padding-bottom: 145px;
     }
 
     #pop, #pop2 {
         font-size: 130%;
-        padding-bottom: 60px;
+        padding-top: 40px;
     }
 
     #pop {
-        padding-right: 60px;
+        padding-right: 40px;
     }
 
     #pop2 {
-        padding-left: 125px;    
+        padding-left: 145px;    
     }
 
 }
@@ -283,19 +283,19 @@ section img {
     }
 
     #meh {
-        font-size: 3em;
-        padding-left: 10px;
-        padding-bottom: 130px ;
+        font-size: 300%;
+        padding-right: 15px;
+        padding-bottom: 40px ;
         text-align: center;
     }
 
     #text {
         font-size: 2em;
-        padding-bottom: 250px;
+        padding-bottom: 160px;
     }
 
     #pop, #pop2 {
-        padding-bottom: 40px;
+        padding-top: 70px;
     }
 
     #pop {
@@ -340,14 +340,14 @@ section img {
     }
 
     #meh {
-        font-size: 3.5em;
-        padding-bottom: 130px;
+        font-size: 350%;
+        padding-bottom: 25px;
         text-align: center;
     }
 
     #text {
         font-size: 2em;
-        padding-bottom: 240px;
+        padding-bottom: 160px;
     }
 
     #pop {
@@ -358,7 +358,7 @@ section img {
     }
 
     #pop, #pop2 {
-        padding-bottom: 10px;
+        padding-top: 100px;
     }
 
     #pop2 {
@@ -402,19 +402,19 @@ section img {
 
 
     #text {
-        font-size: 10px;
+        font-size: 500%;
     }
 
 
     #meh {
-        font-size: 5em;
-        padding-bottom: 130px;
+        font-size: 440%;
+        padding-bottom: 30px;
         text-align: center;
     }
 
     #text {
-        font-size: 50px;
-        padding-bottom: 300px;
+        font-size: 40px;
+        padding-bottom: 210px;
     }
 
     #pop {
@@ -428,7 +428,7 @@ section img {
     }
 
     #pop, #pop2 {
-        padding-top: 40px;
+        padding-top: 135px;
     }
 
     .logo {
@@ -466,14 +466,14 @@ section img {
     }
 
     #meh {
-        font-size: 6em;
-        padding-bottom: 130px;
+        font-size: 540%;
+        padding-bottom: 50px;
         text-align: center;
     }
 
     #text {
-        font-size: 3em;
-        padding-bottom: 300px;
+        font-size: 260%;
+        padding-bottom: 240px;
     }
 
     #pop {
@@ -487,7 +487,7 @@ section img {
     }
 
     #pop, #pop2 {
-        padding-top: 40px;
+        padding-top: 140px;
     }
 
     .logo {
