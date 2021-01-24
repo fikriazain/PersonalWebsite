@@ -79,6 +79,7 @@ body::-webkit-scrollbar-thumb{
     display: none;
     margin-left: 1rem;
     font-family: 'Calibri';
+    font-weight: bold;
 }
 
 .nav-link svg {
@@ -103,8 +104,8 @@ h1 {
     text-decoration: none;  
     transition: 0.4s;
 }
-
-.nav-link-ui:hover {
+:hover
+.nav-link-ui {
     background : var(--bg-secondary);
     color: var(--text-secondary);
 }
@@ -495,7 +496,3 @@ section img {
     }
 
 }
-
-
-
-
