@@ -11,6 +11,8 @@
     <link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -19,7 +21,7 @@
     <nav class="navbar">
         <ul class="navbar-nav">
             <li class="logo">
-                <a href="#" class="nav-link-ui">
+                <a class="nav-link-ui">
                     <span class='link-text'>Welcome</span>
                     <svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" 
                     xmlns:xlink="http://www.w3.org/1999/xlink" 
@@ -46,7 +48,7 @@
                 </a>
               </li>
             <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="#about" class="nav-link">
                 <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="address-card" class="svg-inline--fa fa-address-card fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="50" height="50">
                     <path class="new-icon" fill="currentColor" d="M528 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h480c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-352 96c35.3 0 64 28.7 64 64s-28.7 64-64 64-64-28.7-64-64 28.7-64 64-64zm112 236.8c0 10.6-10 19.2-22.4 19.2H86.4C74 384 64 375.4 64 364.8v-19.2c0-31.8 30.1-57.6 67.2-57.6h5c12.3 5.1 25.7 8 39.8 8s27.6-2.9 39.8-8h5c37.1 0 67.2 25.8 67.2 57.6v19.2zM512 312c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-64c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-64c0 4.4-3.6 8-8 8H360c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16z"></path></svg>
                 <span class="link-text">About</span>
@@ -55,12 +57,12 @@
         </ul>
     </nav>
     <main>
-        <section>
+        <section id="home">
             <img src="{% static "img/bg-pic.jpg" %}" style="width:100%" id="bg">
             <h2 id="text"> /Hello/ </h2>
-            <h2 id="meh">My name is Fikri Aufaa Zain</h2>
-            <p id="pop"> but people call me</p>
-            <p id="pop2">Zain</p>
+            <h2 id="name">My name is Fikri Aufaa Zain</h2>
+            <p id="text2"> but people call me</p>
+            <p id="text3">Zain</p>
         </section>
         <script type="text/javascript">
             let bg = document.getElementById("bg");
@@ -71,7 +73,7 @@
             })
         </script>
 
-        <div class="About">
+        <div class="About" id="about">
             <div class="judul-about">
                 <h2> About me </h2>
             </div>
@@ -89,10 +91,15 @@
                 </div>
                 
                 <div class="desc">
-                    <p>Ini Bio</p>
+                    <p> 
+                        " A student of Computer Science with experience and interested
+                        in Data Science and Artificial Intelligence. Always learning new things
+                        to improve my skill to be a better person. "
+                    </p>
                 </div>
             </div>
         </div>
+        <div class="blank"></div>
     </main>
 
 </body>

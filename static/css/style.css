@@ -7,6 +7,9 @@
     --bg-secondary : #141418;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     color: #cccccc;
@@ -194,21 +197,21 @@ section img {
 
 }
 
-#meh {
+#name {
     position: absolute;
     color:white;
     z-index: 1;
     font-family: 'Lobster';
 }
 
-#pop {
+#text2 {
     position: absolute;
     color:white;
     z-index: 1;
     font-family: 'Lobster';
 }
 
-#pop2 {
+#text3 {
     position: absolute;
     color:white;
     z-index: 1;
@@ -284,6 +287,19 @@ section img {
     transform:  translate(0, -10px);
 }
 
+.About .desc {
+    padding-left: 13rem;
+    padding-top: 2rem;
+    padding-right: 13rem;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Bodoni Moda";
+    letter-spacing: 2px;
+}
+
+.blank {
+    margin-top: 50px ;
+}
 
 /* xs */
 @media only screen and (max-width: 576px) {
@@ -305,7 +321,7 @@ section img {
         margin-left: 0rem;
     }
 
-    #meh {
+    #name {
         font-size: 190%;
         padding-left: 10px;
         padding-bottom: 40px ;
@@ -317,16 +333,16 @@ section img {
         padding-bottom: 145px;
     }
 
-    #pop, #pop2 {
+    #text2, #text3 {
         font-size: 130%;
         padding-top: 40px;
     }
 
-    #pop {
+    #text2 {
         padding-right: 40px;
     }
 
-    #pop2 {
+    #text3 {
         padding-left: 145px;    
     }
 
@@ -353,7 +369,7 @@ section img {
         margin-left: 0rem;
     }
 
-    #meh {
+    #name {
         font-size: 300%;
         padding-right: 15px;
         padding-bottom: 40px ;
@@ -365,16 +381,16 @@ section img {
         padding-bottom: 160px;
     }
 
-    #pop, #pop2 {
+    #text2, #text3 {
         padding-top: 70px;
     }
 
-    #pop {
+    #text2 {
         font-size: 160%;
         padding-right: 60px;
     }
 
-    #pop2 {
+    #text3 {
         font-size: 160%;
         padding-left: 170px;    
     }
@@ -410,7 +426,7 @@ section img {
         margin-left: 5rem;
     }
 
-    #meh {
+    #name {
         font-size: 350%;
         padding-bottom: 25px;
         text-align: center;
@@ -421,18 +437,18 @@ section img {
         padding-bottom: 160px;
     }
 
-    #pop {
+    #text2 {
         font-size: 2em;
         padding-bottom: 0px;
         padding-right: 115px;
         padding-left: 50px;
     }
 
-    #pop, #pop2 {
+    #text2, #text3 {
         padding-top: 100px;
     }
 
-    #pop2 {
+    #text3 {
         font-size: 2em;
         padding-left: 220px;    
     }
@@ -473,32 +489,28 @@ section img {
 
 
     #text {
-        font-size: 500%;
+        font-size: 45px;
+        padding-bottom: 210px;
     }
 
 
-    #meh {
+    #name {
         font-size: 440%;
         padding-bottom: 30px;
         text-align: center;
     }
 
-    #text {
-        font-size: 40px;
-        padding-bottom: 210px;
-    }
-
-    #pop {
+    #text2 {
         font-size: 3em;
         padding-right: 170px;
     }
 
-    #pop2 {
+    #text3 {
         font-size: 3em;
         padding-left: 300px;    
     }
 
-    #pop, #pop2 {
+    #text2, #text3 {
         padding-top: 135px;
     }
 
@@ -536,28 +548,28 @@ section img {
         margin-left: 5rem;
     }
 
-    #meh {
+    #name {
         font-size: 540%;
         padding-bottom: 50px;
         text-align: center;
     }
 
     #text {
-        font-size: 260%;
+        font-size: 50px;
         padding-bottom: 240px;
     }
 
-    #pop {
+    #text2 {
         font-size: 3em;
         padding-left: 70px;
     }
 
-    #pop2 {
+    #text3 {
         font-size: 3em;
         padding-left: 320px;    
     }
 
-    #pop, #pop2 {
+    #text2, #text3 {
         padding-top: 140px;
     }
 
