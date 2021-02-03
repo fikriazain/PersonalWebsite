@@ -294,7 +294,7 @@ section img {
 }
 
 .blank {
-    margin-top: 50px ;
+    margin-top: 10px ;
 }
 
 /* xs */
@@ -355,6 +355,10 @@ section img {
         padding-top: 2rem;
         padding-right: 5rem;
         font-size: 20px;
+    }
+    
+    .blank {
+        margin-top: 10px ;
     }
 
 }
@@ -419,6 +423,10 @@ section img {
         padding-top: 2rem;
         padding-right: 5rem;
         font-size: 20px;
+    }
+
+    .blank {
+        margin-top: 10px ;
     }
 
 }
@@ -498,6 +506,10 @@ section img {
         font-size: 20px;
     }
 
+    .blank {
+        margin-top: 10px ;
+    }
+
 }
 
 /* lg */
@@ -574,6 +586,10 @@ section img {
         font-size: 20px;
     }
 
+    .blank {
+        margin-top: 10px ;
+    }
+
 }
 
 /* xl */
@@ -647,5 +663,9 @@ section img {
         padding-right: 12rem;
         font-size: 20px;
     }   
+
+    .blank {
+        margin-top: 10px ;
+    }
 
 }
