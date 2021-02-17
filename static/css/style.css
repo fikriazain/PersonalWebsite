@@ -44,7 +44,6 @@ body::-webkit-scrollbar-thumb{
 
 .navbar {
     position:fixed;
-
     background-color: var(--bg-primary);
     transition: 0.4s;
     z-index: 999;
@@ -299,10 +298,12 @@ section img {
     padding-top: 30px;
     background-color: #2f3136;
     text-align: center;
+    bottom: 0;
 }
 
 .copyright span {
     color: rgb(182, 179, 180);
+    position: static;
 }
 
 /* xs */
@@ -366,7 +367,7 @@ section img {
     }
 
     .copyright {
-        margin: 50px 0px 60px 0px;
+        margin: 50px 0px 4rem 0px;
     }
 
 }
@@ -433,7 +434,7 @@ section img {
     }
 
     .copyright {
-        margin: 50px 0px 60px 0px;
+        margin: 50px 0px 4rem 0px;
     }
 
 }
@@ -456,6 +457,7 @@ section img {
         margin: 0;
         display: flex;
         flex-direction: column;
+        position: static;
         align-items: center;
     }
     
